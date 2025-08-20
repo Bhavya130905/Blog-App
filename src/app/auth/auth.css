@@ -1,0 +1,135 @@
+.authout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--col2);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.authin {
+  display: flex;
+  width: 70%;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.authin .left {
+  width: 40%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.authin .left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.authin .right {
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.authin .right h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.forminput_cont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.forminput_cont label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+.forminput_cont input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.main_button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.main_button:hover {
+  background-color: #005bb5;
+}
+
+.authin .right p {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.authin .right p a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.authin .right p a:hover {
+  text-decoration: underline;
+}
+
+.remember_cont {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.remember_cont input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.remember_cont label {
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+}
+
+.forminput_cont textarea {
+  font-family: inherit;
+}
+
+.forminput_cont input[type="file"] {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+}
+

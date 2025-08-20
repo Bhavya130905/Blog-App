@@ -1,0 +1,58 @@
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;   /* ensures vertical centering */
+    background-color: black; 
+    color: white; 
+    width: 100%;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 30px; /* spacing for left and right */
+    box-sizing: border-box;
+}
+
+.navbar-left, .navbar-middle, .navbar-right {
+    display: flex;
+    align-items: center;  /* align content in center */
+}
+
+.navbar-middle img { 
+    height: 50px;       /* consistent size */
+    width: auto;
+    object-fit: contain; 
+    display: block; 
+}
+
+.navbar .icon{ 
+    font-size: 30px; 
+    cursor: pointer; 
+} 
+
+.navbar-left{ 
+    display: flex; 
+    gap: 10px; 
+    align-items: center;
+} 
+.navbar-left a{ 
+    text-decoration: none; 
+    color: #ffffff; 
+    display: flex; 
+    align-items: center; 
+} 
+.navbar-middle img{ 
+    height: 60px; 
+    object-fit: contain; 
+} 
+.navbar-right a{ 
+    text-decoration: none; 
+    color: #ffffff; 
+    margin-left: 20px; 
+} 
+.navbar-right a:hover{ 
+    color: var(--col1); 
+} 
+.navbar .icon:hover{ 
+    fill:var(--col1); 
+}
